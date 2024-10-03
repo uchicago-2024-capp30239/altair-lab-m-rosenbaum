@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "altair-lab-m-rosenbaum"
+version = "0.1.0"
+description = ""
+authors = ["Michael Rosenbaum <michaelr526@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+jupyter = "^1.1.1"
+altair = "^5.4.1"
+polars = "^1.9.0"
+ruff = "^0.6.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
